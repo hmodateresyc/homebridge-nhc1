@@ -22,7 +22,7 @@
     "node": ">=0.14.0",
     "homebridge": ">=0.2.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "hap-nodejs": "^0.10.2",
     "niko-home-control": "0.4.3"
   }
