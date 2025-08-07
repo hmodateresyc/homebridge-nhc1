@@ -23,7 +23,7 @@
     "homebridge": "^1.8.0 || ^2.0.0-beta.0"
   },
   "dependencies": {
-    //"hap-nodejs": "^0.10.2", not needed anymore, hap-nodejs is now a dependency of homebridge-lib
+    //"hap-nodejs": "^0.10.2",
     "niko-home-control": "0.4.3"
   }
 }
