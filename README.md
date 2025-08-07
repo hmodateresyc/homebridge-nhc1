@@ -8,7 +8,7 @@ Homebridge plugin for Niko Home Control
 
 # Description
 
-This plugin load all your configuration from your local server Niko Home Control
+This plugin load all your configuration from your local server Niko Home Control v1. (not tested on v2)
 
 It manage `Lights`, `Dimmers` and `Blind`
 
