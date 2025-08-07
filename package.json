@@ -30,5 +30,10 @@
   },
   "dependencies": {
     "niko-home-control": "0.4.3"
-  }
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "config.schema.json"
+  ]
 }
