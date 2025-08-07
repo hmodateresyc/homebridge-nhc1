@@ -1,8 +1,13 @@
 {
   "displayName": "Niko Home Control",
   "name": "homebridge-nhc1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Homebridge plugin for Niko Home Control",
+  "pluginType": "platform",
+  "main": "index.js",
+  "author": {
+    "name": "hmodateresyc"
+  },
   "license": "Apache-2.0",
   "keywords": [
     "homebridge-plugin",
