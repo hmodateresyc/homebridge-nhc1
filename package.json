@@ -5,7 +5,6 @@
   "description": "Homebridge plugin for Niko Home Control",
   "pluginType": "platform",
   "main": "index.js",
-  "icon": "icon.png",
   "schema": "config.schema.json",
   "author": {
     "name": "hmodateresyc"
