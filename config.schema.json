@@ -11,11 +11,12 @@
       },
       "name": {
         "type": "string",
-        "title": "Name"
+        "title": "Name",
+        "default": "Niko Home Control"
       },
       "ip": {
         "type": "string",
-        "title": "Controller IP Address"
+        "title": "Niko Controller IP Address"
       },
       "exclude": {
         "type": "array",
@@ -32,7 +33,7 @@
           "properties": {
             "id": {
               "type": "number",
-              "title": "Blind ID"
+              "title": "Blind ID",
             },
             "time": {
               "type": "number",
