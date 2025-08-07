@@ -1,8 +1,8 @@
 {
     "platforms": [
         {
-            "platform": "NikoHomeControle",
-            "name": "NikoHomeControle",
+            "platform": "NikoHomeControl",
+            "name": "NikoHomeControl",
             "ip": "192.168.1.x",
             "exclude": [
                 31

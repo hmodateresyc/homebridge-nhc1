@@ -1,29 +1,29 @@
 {
-  "displayName": "Homebridge NikoHomeControle",
+  "displayName": "Homebridge NikoHomeControl",
   "name": "homebridge-nhc",
-  "version": "1.3.0",
+  "version": "0.0.1",
   "description": "Homebridge plugin for Niko Home Control",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": [
     "homebridge-plugin",
     "Niko",
     "Niko Home",
     "Niko Home Control"
   ],
-  "homepage": "https://github.com/juliensantos87/homebridge-nhc#readme",
+  "homepage": "https://github.com/hmodateresyc/homebridge-nhc#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/juliensantos87/homebridge-nhc.git"
+    "url": "git://github.com/hmodateresyc/homebridge-nhc.git"
   },
   "bugs": {
-    "url": "http://github.com/juliensantos87/homebridge-nhc/issues"
+    "url": "http://github.com/hmodateresyc/homebridge-nhc/issues"
   },
   "engines": {
-    "node": ">=0.14.0",
-    "homebridge": ">=0.2.0"
+    "node": "^18.20.4 || ^20.18.0 || ^22.10.0",
+    "homebridge": "^1.8.0 || ^2.0.0-beta.0"
   },
   "dependencies": {
-    "hap-nodejs": "^0.10.2",
+    //"hap-nodejs": "^0.10.2", not needed anymore, hap-nodejs is now a dependency of homebridge-lib
     "niko-home-control": "0.4.3"
   }
 }
