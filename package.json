@@ -1,6 +1,6 @@
 {
   "displayName": "Homebridge NikoHomeControl",
-  "name": "homebridge-nhc",
+  "name": "homebridge-nhc1",
   "version": "0.0.1",
   "description": "Homebridge plugin for Niko Home Control",
   "license": "Apache-2.0",
@@ -10,13 +10,13 @@
     "Niko Home",
     "Niko Home Control"
   ],
-  "homepage": "https://github.com/hmodateresyc/homebridge-nhc#readme",
+  "homepage": "https://github.com/hmodateresyc/homebridge-nhc1#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hmodateresyc/homebridge-nhc.git"
+    "url": "git://github.com/hmodateresyc/homebridge-nhc1.git"
   },
   "bugs": {
-    "url": "http://github.com/hmodateresyc/homebridge-nhc/issues"
+    "url": "http://github.com/hmodateresyc/homebridge-nhc1/issues"
   },
   "engines": {
     "node": "^18.20.4 || ^20.18.0 || ^22.10.0",
