@@ -5,7 +5,7 @@
   "description": "Homebridge plugin for Niko Home Control",
   "pluginType": "platform",
   "main": "index.js",
-  "schema": "homebridge-nhc1.schema.json",
+  "schema": "config.schema.json",
   "author": {
     "name": "hmodateresyc"
   },
