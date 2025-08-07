@@ -1,0 +1,48 @@
+{
+  "pluginAlias": "NikoHomeControl",
+  "pluginType": "platform",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "platform": {
+        "type": "string",
+        "const": "NikoHomeControl",
+        "readonly": true
+      },
+      "name": {
+        "type": "string",
+        "title": "Name",
+        "default": "Niko Home Control"
+      },
+      "ip": {
+        "type": "string",
+        "title": "Niko Controller IP Address"
+      },
+      "exclude": {
+        "type": "array",
+        "title": "Exclude IDs",
+        "items": {
+          "type": "number"
+        }
+      },
+      "time": {
+        "type": "array",
+        "title": "Blind Timing",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number",
+              "title": "Blind ID",
+            },
+            "time": {
+              "type": "number",
+              "title": "Time (seconds)"
+            }
+          }
+        }
+      }
+    },
+    "required": ["platform", "ip"]
+  }
+}

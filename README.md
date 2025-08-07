@@ -8,12 +8,10 @@ Homebridge plugin for Niko Home Control
 
 # Description
 
-This plugin load all your configuration from your local server Niko Home Control v1. (not tested on v2)
+This plugin loads your entire configuration from your local Niko Home Control v1 server (not tested on v2).
 
-It manage `Lights`, `Dimmers` and `Blind`
+It supports managing `Lights`, `Dimmers`, and `Blinds`.
 
-Blinds have a default time of 30s, this can be overridden for each one in config.
+Blinds have a default operation time of 30 seconds, which can be customized individually in the configuration.
 
-It is possible to exclude IDs from accessories for scene by example.
-
-
+You can also exclude specific IDs from accessories, for example, to exclude scenes.
